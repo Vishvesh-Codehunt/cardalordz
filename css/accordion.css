@@ -1,60 +1,75 @@
-.accordion{
-  margin: 40px 0;
-  background-color: #01030d;
+.faq-text {
+  text-align: center;
+  font-size: 3em;
 }
-.accordion .item {
-    border: none;
-    margin-bottom: 50px;
-    background: none;
-}
-.t-p{
-  color: rgb(193 206 216);
-  padding: 40px 30px 0px 30px;
-}
-.accordion .item .item-header h2 button.btn.btn-link {
-    background: #333435;
-    color: white;
-    border-radius: 0px;
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2.5;
-    text-decoration: none;
-}
-.accordion .item .item-header {
-    border-bottom: none;
-    background: transparent;
-    padding: 0px;
-    margin: 2px;
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgba(87, 87, 87, 0.295);
+  color: rgb(245, 245, 245);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  border-radius: 15px;
+  margin: 10px 0;
 }
 
-.accordion .item .item-header h2 button {
-    color: white;
-    font-size: 20px;
-    padding: 15px;
-    display: block;
-    width: 100%;
-    text-align: left;
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: rgba(156, 156, 156, 0.295);
+}
+.active {
+  margin-bottom: 0;
+  border-radius: 15px 15px 0px 0px ;
+  color: rgb(150, 150, 150);
 }
 
-.accordion .item .item-header h2 i {
-    float: right;
-    font-size: 30px;
-    color: #8c3cc2;
-    background-color: black;
-    width: 60px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: rgba(156, 156, 156, 0.295);
+  display: none;
+  overflow: hidden;
+  border-radius: 0px 0px 15px 15px;
+  color: rgb(245, 245, 245);
 }
-
-button.btn.btn-link.collapsed i {
-    transform: rotate(0deg);
+.container-faq {
+  width:100%;
+  /*
+  padding-right:var(--bs-gutter-x,2rem);
+  padding-left:var(--bs-gutter-x,2em);
+  */
+  padding-right: 20rem;
+  padding-left: 20rem;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-button.btn.btn-link i {
-    transform: rotate(180deg);
-    transition: 0.5s;
-}
+@media (min-width:100px){.container-faq{ 
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width:540px;
+}} 
+@media (min-width:576px){.container-faq{ 
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width:540px;
+}}
+@media (min-width:768px){.container-faq{
+  max-width:720px;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}}
+@media (min-width:992px){.container-faq{
+  max-width:960px;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}}
+@media (min-width:1200px){.container-faq{
+  max-width:1140px;
+}}
+@media (min-width:1400px){.container-faq{
+  max-width:1320px;
+}}

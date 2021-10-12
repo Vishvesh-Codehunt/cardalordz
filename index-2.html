@@ -6,13 +6,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
         <script src="/js/scrollreveal.js"></script>
         <script src="/js/unpkg-scrollreveal.js"></script>
-        <script src="/js/popper.js"></script>
         <script src="https://use.fontawesome.com/c1d1c9927c.js"></script>
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/css2.css" rel="stylesheet">
         <link href="css/styles2.css" rel="stylesheet">
         <link href="css/vue.css" rel="stylesheet">
         <link href="css/accordion.css" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet">
 
     </head>
     <body style="height: 100%;">
@@ -152,84 +152,60 @@
                         </div>
                     </div>
                 </section>
-                <section id="faq" class="column">
-                    <div class="container">
-                        <div class="accordion" id="accordionExample">
-                          <div class="item">
-                             <div class="item-header" id="headingOne">
-                                <h2 class="mb-0">
-                                   <button class="btn btn-link" type="button" data-toggle="collapse"
-                                      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                   Collapsible Item #1
-                                   <i class="fa fa-angle-down"></i>
-                                   </button>
-                                </h2>
-                             </div>
-                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordionExample">
-                                <div class="t-p">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                                </div>
-                             </div>
-                          </div>
-                          <div class="item">
-                             <div class="item-header" id="headingTwo">
-                                <h2 class="mb-0">
-                                   <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                   Collapsible Item #2
-                                   <i class="fa fa-angle-down"></i>
-                                   </button>
-                                </h2>
-                             </div>
-                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordionExample">
-                                <div class="t-p">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                                </div>
-                             </div>
-                          </div>
-                          <div class="item">
-                             <div class="item-header" id="headingThree">
-                                <h2 class="mb-0">
-                                   <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                      data-target="#collapseThree" aria-expanded="false"
-                                      aria-controls="collapseThree">
-                                   Collapsible Item #3
-                                   <i class="fa fa-angle-down"></i>
-                                   </button>
-                                </h2>
-                             </div>
-                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordionExample">
-                                <div class="t-p">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                                </div>
-                             </div>
-                          </div>
-                          <div class="item">
-                             <div class="item-header" id="headingFour">
-                                <h2 class="mb-0">
-                                   <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                      data-target="#collapseFour" aria-expanded="false"
-                                      aria-controls="collapseFour">
-                                   Collapsible Item #4
-                                   <i class="fa fa-angle-down"></i>
-                                   </button>
-                                </h2>
-                             </div>
-                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                data-parent="#accordionExample">
-                                <div class="t-p">
-                                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                                </div>
-                             </div>
-                          </div>
-                        </div>
-                        </div>
+                <section id="section-faq" class="column">
+                    <div class="container-faq text-center my-5 py-5">
+                        <h3 class="faq-text text-center">FAQs <br></h3>
+                        <button class="accordion">What wallet can I use to store little Ninjas?</button>
+                            <div class="panel">
+                                <p>You can use Daedalus, Yoroi, Nami, and Adalite only with Shelley addresses. You should NEVER send your ADA from an exchange.</p>
+                            </div>
+        
+                        <button class="accordion">What is your refund policy?</button>
+                            <div class="panel">
+                                <p>If you sent the wrong amount of ADA to our address, you will be refunded the excess amount within 7 days, minus the transaction costs. If you sent ADA from an exchange it CANNOT be refunded.</p>
+                            </div>
+                <!--
+                        <button class="accordion">What is the Little Ninjas Policy ID?</button>
+                            <div class="panel">
+                                <p>Every Little Ninja was minted under the Policy ID:</p>
+                            </div>
+                -->
+                        <button class="accordion">When will I receive my Little Ninja?</button>
+                            <div class="panel">
+                                <p>Once the collection is released the Minting process will happen automatically and the transaction will be submitted to the blockchain, it should take no longer than 30 minutes.</p>
+                            </div>
+                        <button class="accordion">What if I need support for my Little Ninja?</button>
+                            <div class="panel">
+                                <p>You can join our Discord server and send a message to an admin in there.</p>
+                            </div>
+                        <button class="accordion">How can I trade my Little Ninja?</button>
+                            <div class="panel">
+                                <p>You will be able to trade on cnft.io or on our trusted discord servers until smart contracts are released on the Cardano Blockchain.</p>
+                            </div>
+                    </div>
                 </section>
             </div>
         </div>
     </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+    
+        for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+            this.classList.toggle("active");
+    
+        /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                  panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+              });
+        }
+    </script>
     </body>
 </html>
