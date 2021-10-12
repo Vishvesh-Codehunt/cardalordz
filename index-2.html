@@ -4,9 +4,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+        <script src="/js/scrollreveal.js"></script>
+        <script src="/js/unpkg-scrollreveal.js"></script>
+        <script src="/js/popper.js"></script>
+        <script src="https://use.fontawesome.com/c1d1c9927c.js"></script>
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/css2.css" rel="stylesheet">
-        <link href="css/cstyles2.css" rel="stylesheet">
+        <link href="css/styles2.css" rel="stylesheet">
+        <link href="css/vue.css" rel="stylesheet">
+        <link href="css/accordion.css" rel="stylesheet">
 
     </head>
     <body style="height: 100%;">
@@ -49,19 +55,178 @@
                     </div>
                 </section>
                 <section id="presentation" class="container row">
+                    <div class="examples sr-top-fast-delayed" data-sr-id="12" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s;">
+                        <video class="various" tabindex="0" preload autoplay loop>
+                            <source src="/assets/img/various_replace.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="description sr-top-fast" data-sr-id="2" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
                         <h2>
                             <div class="degrade">Collect</div>
                             <div class="degrade-reverse">Explore</div>
                             <div class="degrade">Learn</div>
                         </h2>
-                        <p>
+                        <p class="presentation-p">
                             The misison of CardaLordz is to bring all world religions together through a unique spiritual metaverse and non-fungible tokens (NFTs).
-                            Our Cardano based NFT, or CNFT, will be able to function as avatars and admit owners into the metaverse. Each NFT will feature
-                            a deity with varying passages from their respective religious texts, allowing users to learn more about world religious as they
-                            explore the metaverse.
+                            Our Cardano based NFT, or CNFT, will be able to function as avatars and admit owners into the metaverse. 
+                        </p>
+                        <p class="presentation-p">
+                            Each NFT will feature a deity with varying passages from their respective religious texts, allowing users 
+                            to learn more about world religious as they explore the cardalord realm.
                         </p>
                     </div>
+                </section>
+                <section id="gallery" class="sr-top-more-delayed" data-sr-id="12" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.8s;">
+                    <section class="carousel" aria-label="Gallery">
+                        <div class="carousel__viewport">
+                            <ol class="carousel__track">
+                                <li class="carousel__slide">
+                                    <div class="carousel__item"><img src="/assets/img/card-variations/1.png" alt="CardaLord Example 1"></div>
+                                </li>
+                                <li class="carousel__slide">
+                                    <div class="carousel__item"><img src="/assets/img/card-variations/2.png" alt="CardaLord Example 2"></div>
+                                </li>
+                                <li class="carousel__slide">
+                                    <div class="carousel__item"><img src="/assets/img/card-variations/3.png" alt="CardaLord Example 3"></div>
+                                </li>
+                                <li class="carousel__slide">
+                                    <div class="carousel__item"><img src="/assets/img/card-variations/4.png" alt="CardaLord Example 4"></div>
+                                </li>
+                                <li class="carousel__slide">
+                                    <div class="carousel__item"><img src="/assets/img/card-variations/5.png" alt="CardaLord Example 5"></div>
+                                </li>
+                                <li class="carousel__slide">
+                                    <div class="carousel__item"><img src="/assets/img/card-variations/6.png" alt="CardaLord Example 6"></div>
+                                </li>
+                                <li class="carousel__slide">
+                                    <div class="carousel__item"><img src="/assets/img/card-variations/7.png" alt="CardaLord Example 7"></div>
+                                </li>
+                                <li class="carousel__slide">
+                                    <div class="carousel__item"><img src="/assets/img/card-variations/8.png" alt="CardaLord Example 8"></div>
+                                </li>
+
+                            </ol>
+                        </div>
+                        <ol class="carousel__pagination">
+                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
+                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
+                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
+                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
+                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
+                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
+                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
+                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
+                        </ol>
+                    </section>
+                </section>
+                <section id="roadmap" class="column">
+                    <div class="decal container">
+                        <h2 class="sr-top-fast" data-sr-id="3">Roadmap</h2>
+                        <p class="intro sr-top-fast-delayed" data-sr-id="8">
+                            The roadmap below is the guiding path for our metaverse.
+                            These may change over time as we develop Cardaloadz to 
+                            become even more amazing!
+                        </p>
+                        <div class="middle row relative">
+                            <div class="timeline column">
+                                <div class="line">
+                                    <div class="progression">
+                                    </div>
+                                    <div class="step row done">
+                                        <div class="dot">
+                                            <div class="shape"></div>
+                                        </div>
+                                        <div class="details">
+                                            <div class="title row sr-right-fast" data-sr-id="14">
+                                                <div class="number degrage">001</div>
+                                                <h3>CNFT Launch</h3>
+                                            </div>
+                                            <p class="sr-right-fast-delayed" data-sr-id="19">
+                                            <span class="bold"> Quality comes first</span>
+                                            We also need to work hard with our community to make Discord and Twitter even cooler with new additions throughout time. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="faq" class="column">
+                    <div class="container">
+                        <div class="accordion" id="accordionExample">
+                          <div class="item">
+                             <div class="item-header" id="headingOne">
+                                <h2 class="mb-0">
+                                   <button class="btn btn-link" type="button" data-toggle="collapse"
+                                      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                   Collapsible Item #1
+                                   <i class="fa fa-angle-down"></i>
+                                   </button>
+                                </h2>
+                             </div>
+                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="t-p">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </div>
+                             </div>
+                          </div>
+                          <div class="item">
+                             <div class="item-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                   <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                   Collapsible Item #2
+                                   <i class="fa fa-angle-down"></i>
+                                   </button>
+                                </h2>
+                             </div>
+                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="t-p">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </div>
+                             </div>
+                          </div>
+                          <div class="item">
+                             <div class="item-header" id="headingThree">
+                                <h2 class="mb-0">
+                                   <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                      data-target="#collapseThree" aria-expanded="false"
+                                      aria-controls="collapseThree">
+                                   Collapsible Item #3
+                                   <i class="fa fa-angle-down"></i>
+                                   </button>
+                                </h2>
+                             </div>
+                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="t-p">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </div>
+                             </div>
+                          </div>
+                          <div class="item">
+                             <div class="item-header" id="headingFour">
+                                <h2 class="mb-0">
+                                   <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                      data-target="#collapseFour" aria-expanded="false"
+                                      aria-controls="collapseFour">
+                                   Collapsible Item #4
+                                   <i class="fa fa-angle-down"></i>
+                                   </button>
+                                </h2>
+                             </div>
+                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="t-p">
+                                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                </div>
+                             </div>
+                          </div>
+                        </div>
+                        </div>
                 </section>
             </div>
         </div>
