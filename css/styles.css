@@ -437,14 +437,17 @@ ol {
 #discord {
     position: relative;
     width: 100%;
-    background: url(/assets/img/sky_REPLACE.jpg) no-repeat;
+    background: url(/assets/img/discord_background.jpg) no-repeat;
     background-size: cover;
     background-position: 50% left;
     margin-top: 160px;
     overflow: hidden;
 }
+#discord .container {
+    padding: 100px 60px;
+}
 #discord h2 {
-    color: #01030d;
+    color: #899df7;
     width: 55.55%;
     margin-bottom: 25px;
     font-size: 5rem;
@@ -452,12 +455,13 @@ ol {
 #discord p {
     width: 44.44%;
     margin: 0 0 50px;
+    color: #dfe5ff;
 }
 #discord .lord {
     position: absolute;
     width: 580px;
     height: 427px;
-    background: url(/assets/img/meka_blue_REPLACE.png) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     bottom: 0;
     right: 0;
@@ -528,4 +532,33 @@ footer .discord {
     background-color: #fff;
     -webkit-mask: url(/images/discord.svg) no-repeat center;
     mask: url(/images/discord.svg) no-repeat center;
+}
+#discord .cta:hover {
+    background: #6c77ea;
+}
+
+#discord .cta {
+    padding: 16px 30px;
+    background: #4753d6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.cta:hover {
+    background: #6c77ea;
+    color: #fff;
+}
+a:hover {
+    color: #6c77ea;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.cta {
+    padding: 16px 30px;
+    background: #4753d6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
 }
