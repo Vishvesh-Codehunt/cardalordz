@@ -584,3 +584,53 @@ a:active, a:hover {
     font-weight: 700;
     transition: all .3s ease-in-out;
 }
+.main-gallery {
+    width: 100%;
+    display: block;
+    height: 500px !important;
+}
+.gallery-cell {
+    height: 500px;
+    margin-right: 20px;
+    border-radius: 6px;
+    counter-increment: gallery-cell;
+}
+/* cell number */
+.carousel-cell:before {
+display: block;
+text-align: center;
+content: counter(carousel-cell);
+line-height: 200px;
+font-size: 80px;
+color: white;
+}
+.carousel_cell img {
+    width: 100%;
+    height: auto;
+}
+* { box-sizing: border-box; }
+
+.carousel-test {
+  background: #01030d;
+
+}
+.gallery-test {
+    height: 400px;
+}
+
+.flickity-viewport {
+    height: 400px !important;
+}
+
+.carousel-image {
+    display: block;
+    height: 200px;
+    /* set min-width,
+       allow images to determine cell width */
+    min-width: 150px;
+    max-width: 100%;
+    margin-right: 10px;
+    /* vertically center */
+    top: 50%;
+    transform: translateY(-50%)
+  }
