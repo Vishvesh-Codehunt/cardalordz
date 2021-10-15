@@ -26,6 +26,11 @@
     font-size: inherit;
     line-height: inherit;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 html {
     font-size: 62.5%;
     background: #01030d;
@@ -301,7 +306,7 @@ button, input, select {
     overflow: hidden;
 }
 #gallery {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 #gallery .carousel {
     overflow: hidden;
@@ -367,10 +372,14 @@ ol {
     border: 5px solid #01030d;
     transition: all .3s ease-in-out;
 }
+/*
 #roadmap {
     position: relative;
     margin-bottom: 100px;
     overflow: hidden;
+}
+#roadmap .container {
+    width: 80%;
 }
 #roadmap .intro, #roadmap h2 {
     text-align: center;
@@ -440,6 +449,13 @@ ol {
 #roadmap .step p {
     margin: 20px 0 0;
 }
+#roadmap .box {
+    position: absolute;
+    left: 77.77%;
+    top: -250px;
+    margin: 0;
+}
+*/
 .bold {
     font-weight: 700;
 }
