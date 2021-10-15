@@ -131,7 +131,7 @@ header .link {
     transition: all .3s ease-in-out;
 }
 header .link:hover {
-    box-shadow: inset 0 -54px 0 #fff;
+    box-shadow: inset 0 -54px 0 #6394FD;
 }
 header .link a {
     width: 44px;
@@ -141,12 +141,12 @@ header .link a {
     align-items: center;
 }
 header .twitter {
-    background-color: #01030d;
+    background-color: #030924;
     -webkit-mask: url(/assets/img/logo-twitter.svg) no-repeat center;
     mask: url(/assets/img/logo-twitter.svg) no-repeat center;
 }
 header .wallet {
-    background: #01030d;
+    background: #030924;
     border: none;
     font-family: Space Grotesk;
     font-size: 1.4rem;
@@ -155,10 +155,10 @@ header .wallet {
     transition: all .3s ease-in-out;
 }
 header .wallet:hover {
-    background-color: #6c77ea;
+    background-color: #6394fd;
 }
 a {
-    color: #4753d6;
+    color: #6394fd;
     transition: all .3s ease-in-out;
 }
 a {
@@ -250,7 +250,7 @@ button, input, select {
     cursor: pointer;
 }
 #hero .hero-main-btn .element {
-    background: #4753d6;
+    background: #6394fd;
     padding: 25px 50px;
     transition: all .3s ease-in-out;
     color: #fff;
@@ -260,7 +260,7 @@ button, input, select {
     font-weight: 700;
 }
 #hero .hero-main-btn.clickable .element:hover {
-    background: #6c77ea;
+    background: #4f76ca;
     color: #fff;
 }
 .degrade {
@@ -325,16 +325,6 @@ button, input, select {
     margin: 0;
     padding: 0;
     position: relative;
-}
-#gallery .carousel__slide {
-    cursor: pointer;
-}
-#gallery img {
-    width: 40vw;
-    max-width: 440px;
-    height: auto;
-    margin: 30px 15px;
-    transition: all .3s ease-in-out;
 }
 ol {
     display: block;
@@ -525,11 +515,11 @@ footer .nav a {
     transition: all .3s ease-in-out;
 }
 footer .link {
-    border: 1px solid #4753d6;
+    border: 1px solid #6394fd;
     width: 44px;
     height: 44px;
     margin-right: 15px;
-    box-shadow: inset 0 0 0 #4753d6;
+    box-shadow: inset 0 0 0 #6394fd;
     transition: all .3s ease-in-out;
 }
 footer .link a {
@@ -540,7 +530,7 @@ footer .link a {
     align-items: center;
 }
 footer .link:hover {
-    box-shadow: inset 0 -54px 0 #4753d6;
+    box-shadow: inset 0 -54px 0 #6394fd;
 }
 footer .twitter {
     background-color: #fff;
@@ -556,81 +546,31 @@ footer .discord {
     mask: url(/assets/img/logo-discord.svg) no-repeat center;
 }
 #discord .cta:hover {
-    background: #6c77ea;
+    background: #6394fd;
 }
 
 #discord .cta {
     padding: 16px 30px;
-    background: #4753d6;
+    background: #6394fd;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
 .cta:hover {
-    background: #6c77ea;
+    background: #6394fd;
     color: #fff;
 }
 a:hover {
-    color: #6c77ea;
+    color: #6394fd;
 }
 a:active, a:hover {
     outline: 0;
 }
 .cta {
     padding: 16px 30px;
-    background: #4753d6;
+    background: #6394fd;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
     transition: all .3s ease-in-out;
 }
-.main-gallery {
-    width: 100%;
-    display: block;
-    height: 500px !important;
-}
-.gallery-cell {
-    height: 500px;
-    margin-right: 20px;
-    border-radius: 6px;
-    counter-increment: gallery-cell;
-}
-/* cell number */
-.carousel-cell:before {
-display: block;
-text-align: center;
-content: counter(carousel-cell);
-line-height: 200px;
-font-size: 80px;
-color: white;
-}
-.carousel_cell img {
-    width: 100%;
-    height: auto;
-}
-* { box-sizing: border-box; }
-
-.carousel-test {
-  background: #01030d;
-
-}
-.gallery-test {
-    height: 400px;
-}
-
-.flickity-viewport {
-    height: 400px !important;
-}
-
-.carousel-image {
-    display: block;
-    height: 200px;
-    /* set min-width,
-       allow images to determine cell width */
-    min-width: 150px;
-    max-width: 100%;
-    margin-right: 10px;
-    /* vertically center */
-    top: 50%;
-    transform: translateY(-50%)
-  }

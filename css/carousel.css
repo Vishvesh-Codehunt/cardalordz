@@ -1,0 +1,30 @@
+/* external css: flickity.css */
+
+
+
+/* force scrollbar, not necessary, but may reduce gaps. Setting a max-height on .carousel also works */
+html { overflow-y: scroll; }
+
+.carousel {
+  background: #01030d;
+  margin: auto;
+  max-height: 472px;
+}
+.carousel-card {
+  margin-right: 20px;
+  background: #01030d;
+}
+.carousel img {
+  display: block;
+  height: 400px !important;
+  margin-right: 30px;
+  border-radius: 12px;
+}
+#gallery .carousel__slide {
+  cursor: pointer;
+}
+#gallery img {
+  /* width: 40vw; */
+  max-width: 472px;
+  margin: 30px 15px;
+}

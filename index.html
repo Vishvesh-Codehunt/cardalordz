@@ -4,8 +4,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-        <script src="/js/scrollreveal.js"></script>
-        <script src="/js/unpkg-scrollreveal.js"></script>
         <script src="https://use.fontawesome.com/c1d1c9927c.js"></script>
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/css2.css" rel="stylesheet">
@@ -13,6 +11,8 @@
         <link href="css/vue.css" rel="stylesheet">
         <link href="css/accordion.css" rel="stylesheet">
         <link href="css/theme.css" rel="stylesheet">
+        <link href="css/flickity.min.css" rel="stylesheet" media="screen">
+        <link href="css/carousel.css" rel="stylesheet">
 
     </head>
     <body style="height: 100%;">
@@ -23,7 +23,7 @@
         <div id="project">
             <div id="home">
                 <section id="hero">
-                    <header class="container row sr-top-slow" data-sr-id="0" style="visibility: visibile; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                    <header class="container row sr-top-slow" data-sr-id="0" >
                         <div class="logo row">
                             <div class="carda-logo"></div>
                             <div class="typo">Cardalordz</div>
@@ -43,11 +43,13 @@
                             </div>
                         </div>
                     </header>
+                    <!--
                     <a class="hero-main-btn clickable" href="https://opensea.io/collection/cardalordz" target="_blank">
                         <div class="element">
                             <div class="text">View on Opensea</div>
                         </div>
                     </a>
+                    -->
                     <div style="transform: translateY(0px);">
                         <video id="hero-video" tabindex="0" preload playsinline>
                             <source src="assets/img/hero_replace.mp4" type="video/mp4">
@@ -55,13 +57,13 @@
                     </div>
                 </section>
                 <section id="presentation" class="container row">
-                    <div class="examples sr-top-fast-delayed" data-sr-id="12" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s;">
+                    <div class="examples sr-top-fast-delayed" data-sr-id="12">
                         <img src="assets/img/draft-lordz-gif.gif" />
                         <!--<video class="various" tabindex="0" preload autoplay loop>
                             <source src="/assets/img/various_replace.mp4" type="video/mp4">
                         </video>-->
                     </div>
-                    <div class="description sr-top-fast" data-sr-id="2" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                    <div class="description sr-top-fast" data-sr-id="2">
                         <h2>
                             <div class="degrade">Collect</div>
                             <div class="degrade-reverse">Explore</div>
@@ -77,47 +79,43 @@
                         </p>
                     </div>
                 </section>
-                <section id="gallery" class="sr-top-more-delayed" data-sr-id="12" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.8s;">
+                <section>
+                    
+                </section>
+                <section id="gallery" class="sr-top-more-delayed">
                     <section class="carousel" aria-label="Gallery">
-                        <div class="carousel__viewport">
-                            <ol class="carousel__track">
-                                <li class="carousel__slide">
-                                    <div class="carousel__item"><img src="/assets/img/card-variations/1.png" alt="CardaLord Example 1"></div>
-                                </li>
-                                <li class="carousel__slide">
-                                    <div class="carousel__item"><img src="/assets/img/card-variations/2.png" alt="CardaLord Example 2"></div>
-                                </li>
-                                <li class="carousel__slide">
-                                    <div class="carousel__item"><img src="/assets/img/card-variations/3.png" alt="CardaLord Example 3"></div>
-                                </li>
-                                <li class="carousel__slide">
-                                    <div class="carousel__item"><img src="/assets/img/card-variations/4.png" alt="CardaLord Example 4"></div>
-                                </li>
-                                <li class="carousel__slide">
-                                    <div class="carousel__item"><img src="/assets/img/card-variations/5.png" alt="CardaLord Example 5"></div>
-                                </li>
-                                <li class="carousel__slide">
-                                    <div class="carousel__item"><img src="/assets/img/card-variations/6.png" alt="CardaLord Example 6"></div>
-                                </li>
-                                <li class="carousel__slide">
-                                    <div class="carousel__item"><img src="/assets/img/card-variations/7.png" alt="CardaLord Example 7"></div>
-                                </li>
-                                <li class="carousel__slide">
-                                    <div class="carousel__item"><img src="/assets/img/card-variations/8.png" alt="CardaLord Example 8"></div>
-                                </li>
-
-                            </ol>
+                        <div class="carousel"
+                        data-flickity='{ 
+                            "imagesLoaded": true, "autoPlay": true,
+                            "pauseAutoPlayOnHover": false, "imagesLoaded": true,
+                             "wrapAround": true, "prevNextButtons": false,
+                             "cellAlign": "left", "contain": true 
+                            }'>
+                            <div class="carousel-card">
+                                <img src="/assets/img/card-variations/1s.png" alt="variation 1" />
+                            </div>
+                            <div class="carousel-card">
+                                <img src="/assets/img/card-variations/2s.png" alt="variation 2" />
+                            </div>
+                            <div class="carousel-card">
+                                <img src="/assets/img/card-variations/3s.png" alt="variation 3" />
+                            </div>
+                            <div class="carousel-card">
+                                <img src="/assets/img/card-variations/4s.png" alt="variation 4" />
+                            </div>
+                            <div class="carousel-card">
+                                <img src="/assets/img/card-variations/5s.png" alt="variation 5" />
+                            </div>
+                            <div class="carousel-card">
+                                <img src="/assets/img/card-variations/6s.png" alt="variation 6" />
+                            </div>
+                            <div class="carousel-card">
+                                <img src="/assets/img/card-variations/7s.png" alt="variation 6" />
+                            </div>
+                            <div class="carousel-card">
+                                <img src="/assets/img/card-variations/8s.png" alt="variation 6" />
+                            </div>
                         </div>
-                        <ol class="carousel__pagination">
-                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
-                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
-                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
-                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
-                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
-                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
-                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
-                            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button"></button></li>
-                        </ol>
                     </section>
                 </section>
                 <section id="roadmap" class="column">
@@ -288,5 +286,9 @@
               });
         }
     </script>
+    <script async defer src="/js/scrollreveal.js"></script>
+    <script src="/js/unpkg-scrollreveal.js"></script>
+    <script async defer src="/js/unpkg-scrollreveal.js"></script>
+    <script async defer src="/js/flickity.pkgd.min.js"></script>
     </body>
 </html>
