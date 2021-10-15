@@ -250,7 +250,7 @@ button, input, select {
     cursor: pointer;
 }
 #hero .hero-main-btn .element {
-    background: #6394fd;
+    background: transparent;
     padding: 25px 50px;
     transition: all .3s ease-in-out;
     color: #fff;
@@ -260,7 +260,7 @@ button, input, select {
     font-weight: 700;
 }
 #hero .hero-main-btn.clickable .element:hover {
-    background: #4f76ca;
+    background: transparent;
     color: #fff;
 }
 .degrade {
@@ -391,7 +391,7 @@ ol {
 }
 #roadmap .line {
     position: absolute;
-    width: 1px;
+    width: 2px;
     height: 100%;
     background: hsla(0,0%,100%,.4);
     left: 82px;

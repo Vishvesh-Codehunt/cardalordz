@@ -13,6 +13,7 @@
         <link href="css/theme.css" rel="stylesheet">
         <link href="css/flickity.min.css" rel="stylesheet" media="screen">
         <link href="css/carousel.css" rel="stylesheet">
+        <link href="css/countdown.css" rel="stylesheet">
 
     </head>
     <body style="height: 100%;">
@@ -43,13 +44,30 @@
                             </div>
                         </div>
                     </header>
-                    <!--
-                    <a class="hero-main-btn clickable" href="https://opensea.io/collection/cardalordz" target="_blank">
+
+                    <a class="hero-main-btn clickable" id="hero-main-btn" href="#" target="_blank">
                         <div class="element">
-                            <div class="text">View on Opensea</div>
+                            <div id="clockdiv">
+                                <div>
+                                  <span class="days"></span>
+                                  <div class="smalltext">Days</div>
+                                </div>
+                                <div>
+                                  <span class="hours"></span>
+                                  <div class="smalltext">Hours</div>
+                                </div>
+                                <div>
+                                  <span class="minutes"></span>
+                                  <div class="smalltext">Minutes</div>
+                                </div>
+                                <div>
+                                  <span class="seconds"></span>
+                                  <div class="smalltext">Seconds</div>
+                                </div>
+                              </div>
                         </div>
                     </a>
-                    -->
+
                     <div style="transform: translateY(0px);">
                         <video id="hero-video" tabindex="0" preload playsinline>
                             <source src="assets/img/hero_replace.mp4" type="video/mp4">
@@ -434,8 +452,8 @@
         }
     </script>
     <script async defer src="/js/scrollreveal.js"></script>
-    <script src="/js/unpkg-scrollreveal.js"></script>
     <script async defer src="/js/unpkg-scrollreveal.js"></script>
     <script async defer src="/js/flickity.pkgd.min.js"></script>
+    <script async defer src="/js/scripts.js"></script>
     </body>
 </html>
