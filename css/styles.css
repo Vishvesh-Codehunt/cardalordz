@@ -113,7 +113,7 @@ header .carda-logo {
     display: block;
     width: 50px;
     height: 60px;
-    background: url(/assets/img/logo-tree.png) no-repeat;
+    background: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-tree.png) no-repeat;
     background-size: cover;
 }
 header .typo {
@@ -142,8 +142,8 @@ header .link a {
 }
 header .twitter {
     background-color: #030924;
-    -webkit-mask: url(/assets/img/logo-twitter.svg) no-repeat center;
-    mask: url(/assets/img/logo-twitter.svg) no-repeat center;
+    -webkit-mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-twitter.svg) no-repeat center;
+    mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-twitter.svg) no-repeat center;
 }
 header .wallet {
     background: #030924;
@@ -222,8 +222,8 @@ a:-webkit-any-link {
 }
 header .discord {
     background-color: #01030d;
-    -webkit-mask: url(/assets/img/logo-discord.svg) no-repeat center;
-    mask: url(/assets/img/logo-discord.svg) no-repeat center;
+    -webkit-mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-discord.svg) no-repeat center;
+    mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-discord.svg) no-repeat center;
 }
 button, input[type=button], input[type=reset], input[type=submit] {
     appearance: button;
@@ -446,7 +446,7 @@ ol {
 #discord {
     position: relative;
     width: 100%;
-    background: url(/assets/img/discord_background.jpg) no-repeat;
+    background: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/discord_background.jpg) no-repeat;
     background-size: cover;
     background-position: 50% left;
     margin-top: 160px;
@@ -487,7 +487,7 @@ footer .carda-logo {
     display: block;
     width: 50px;
     height: 30px;
-    background: url(/assets/img/logo-tree.png) no-repeat;
+    background: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-tree.png) no-repeat;
     background-size: cover;
 }
 footer .baseline {
@@ -534,16 +534,16 @@ footer .link:hover {
 }
 footer .twitter {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/logo-twitter.svg) no-repeat center;
-    mask: url(/assets/img/logo-twitter.svg) no-repeat center;
+    -webkit-mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-twitter.svg) no-repeat center;
+    mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-twitter.svg) no-repeat center;
 }
 footer .link:last-child {
     margin-right: 0;
 }
 footer .discord {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/logo-discord.svg) no-repeat center;
-    mask: url(/assets/img/logo-discord.svg) no-repeat center;
+    -webkit-mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-discord.svg) no-repeat center;
+    mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-discord.svg) no-repeat center;
 }
 #discord .cta:hover {
     background: #6394fd;
@@ -643,13 +643,13 @@ a:active, a:hover {
 }
 #team .twitter {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/twitter-about-small.svg) no-repeat center;
-    mask: url(/assets/img/twitter-about-small.svg) no-repeat center;
+    -webkit-mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/twitter-about-small.svg) no-repeat center;
+    mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/twitter-about-small.svg) no-repeat center;
 }
 #team .instagram {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/logo-instagram.svg) no-repeat center;
-    mask: url(/assets/img/logo-instagram.svg) no-repeat center;
+    -webkit-mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-instagram.svg) no-repeat center;
+    mask: url(https://kirtz-investments-inc.github.io/cardalordz/assets/img/logo-instagram.svg) no-repeat center;
 }
 #team .network {
     width: 44px;
