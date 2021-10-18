@@ -170,7 +170,7 @@ header .wallet:hover {
     font-size: 2rem;
     color: #030924 !important;
     transition: all .3s ease-in-out;
-    margin-left: 20%;
+    margin-left: 15%;
     font-weight: 700;
 }
 .nav-top-left a:visited{
