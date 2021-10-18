@@ -116,7 +116,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 header .carda-logo {
     display: block;
-    width: 50px;
+    width: 60px;
     height: 60px;
     background: url(/assets/img/logo-tree.png) no-repeat;
     background-size: cover;
@@ -126,6 +126,8 @@ header .typo {
     font-weight: 700;
     color: rgb(212, 212, 212);
     margin-left: 20px;
+    margin-top: 2%;
+    margin-right: 5%;
 }
 header .link {
     border: 1px solid rgb(146, 145, 145);
@@ -163,14 +165,14 @@ header .wallet:hover {
     background-color: #6394fd;
 }
 .nav-top-left {
-    width: 135px;
+    width: 14rem;
 }
 .nav-top-left a, a:visited {
     text-decoration: none !important;
     font-size: 2rem;
     color: #030924 !important;
     transition: all .3s ease-in-out;
-    margin-left: 15%;
+
     font-weight: 700;
 }
 .nav-top-left a:visited{
@@ -520,10 +522,15 @@ footer .infos {
 }
 footer .carda-logo {
     display: block;
-    width: 50px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     background: url(/assets/img/logo-tree.png) no-repeat;
     background-size: cover;
+}
+footer .typo {
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 10px;
 }
 footer .baseline {
     font-weight: 300;

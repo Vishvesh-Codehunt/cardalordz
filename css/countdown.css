@@ -11,7 +11,7 @@
 #clockdiv > div{
   padding: 10px;
   border-radius: 3px;
-  background: #4184b8;
+  background: #030924;
   display: inline-block;
   margin-right: 30px;
   margin-top: 10px;
@@ -20,7 +20,7 @@
 #clockdiv div > span{
   padding: 15px;
   border-radius: 3px;
-  background: #2f5f85;
+  background: #465485;
   display: inline-block;
 }
 
