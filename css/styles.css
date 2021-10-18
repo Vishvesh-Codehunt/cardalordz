@@ -481,7 +481,7 @@ ol {
 #discord {
     position: relative;
     width: 100%;
-    background: url(/assets/img/discord_background.jpg) no-repeat;
+    background: url(/assets/img/discord_background.png) no-repeat;
     background-size: cover;
     background-position: 50% left;
     margin-top: 160px;
