@@ -235,7 +235,11 @@ p {
     margin-inline-end: 0px;
 }
 .presentation-p {
-    font-size: 0.9em;
+    font-size: 1.1em;
+}
+.description h2 {
+    font-size: 5.5rem;
+    line-height: 6rem;
 }
 .description {
     margin-left: 45px;
@@ -325,6 +329,11 @@ button, input, select {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+}
+#presentation img {
+
+    min-width: 350px !important;
+
 }
 #gallery {
     margin-bottom: 150px;
@@ -507,10 +516,11 @@ ol {
     position: absolute;
     width: 580px;
     height: 427px;
-    background: url() no-repeat;
+    background: url(/assets/img/RA_final.png) no-repeat;
     background-size: cover;
     bottom: 0;
     right: 0;
+    margin-right: 18rem;
 }
 footer .container {
     justify-content: space-between;
@@ -615,6 +625,32 @@ a:active, a:hover {
     text-decoration: none;
     font-weight: 700;
     transition: all .3s ease-in-out;
+}
+#covenant {
+    margin-bottom: 200px;
+    padding-top: 100px;
+    overflow: hidden;
+}
+#covenant .intro {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+#covenant .title {
+    position: relative;
+    width: 44.44%;
+    text-align: center;
+    padding-right: 0px;
+}
+#covenant .question {
+    font-size: 4rem;
+    font-weight: 700;
+}
+#covenant .answer {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 4.6rem;
+    margin-top: 10px;
 }
 #team {
     margin-bottom: 200px;
