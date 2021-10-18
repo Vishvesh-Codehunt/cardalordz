@@ -1,0 +1,12 @@
+#covenant {
+    width: 100vh;
+}
+
+#covenant .covenant-scroll {
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+}
+#covenant img {
+    align-content: center;
+}
