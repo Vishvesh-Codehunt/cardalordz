@@ -116,9 +116,9 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 header .carda-logo {
     display: block;
-    width: 60px;
+    width: 50px;
     height: 60px;
-    background: url(/assets/img/logo-tree.png) no-repeat;
+    background: url("../assets/img/logo-tree.png") no-repeat;
     background-size: cover;
 }
 header .typo {
@@ -126,8 +126,6 @@ header .typo {
     font-weight: 700;
     color: rgb(212, 212, 212);
     margin-left: 20px;
-    margin-top: 2%;
-    margin-right: 5%;
 }
 header .link {
     border: 1px solid rgb(146, 145, 145);
@@ -149,8 +147,8 @@ header .link a {
 }
 header .twitter {
     background-color: #030924;
-    -webkit-mask: url(/assets/img/logo-twitter.svg) no-repeat center;
-    mask: url(/assets/img/logo-twitter.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-twitter.svg") no-repeat center;
+    mask: url("../assets/img/logo-twitter.svg") no-repeat center;
 }
 header .wallet {
     background: #030924;
@@ -165,14 +163,14 @@ header .wallet:hover {
     background-color: #6394fd;
 }
 .nav-top-left {
-    width: 14rem;
+    width: 135px;
 }
 .nav-top-left a, a:visited {
     text-decoration: none !important;
     font-size: 2rem;
     color: #030924 !important;
     transition: all .3s ease-in-out;
-
+    margin-left: 15%;
     font-weight: 700;
 }
 .nav-top-left a:visited{
@@ -235,11 +233,7 @@ p {
     margin-inline-end: 0px;
 }
 .presentation-p {
-    font-size: 1.1em;
-}
-.description h2 {
-    font-size: 5.5rem;
-    line-height: 6rem;
+    font-size: 0.9em;
 }
 .description {
     margin-left: 45px;
@@ -252,8 +246,8 @@ a:-webkit-any-link {
 }
 header .discord {
     background-color: #030924;
-    -webkit-mask: url(/assets/img/logo-discord.svg) no-repeat center;
-    mask: url(/assets/img/logo-discord.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-discord.svg") no-repeat center;
+    mask: url("../assets/img/logo-discord.svg") no-repeat center;
 }
 button, input[type=button], input[type=reset], input[type=submit] {
     appearance: button;
@@ -329,11 +323,6 @@ button, input, select {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-}
-#presentation img {
-
-    min-width: 350px !important;
-
 }
 #gallery {
     margin-bottom: 150px;
@@ -492,7 +481,7 @@ ol {
 #discord {
     position: relative;
     width: 100%;
-    background: url(/assets/img/discord_background.png) no-repeat;
+    background: url("../assets/img/discord_background.png") no-repeat;
     background-size: cover;
     background-position: 50% left;
     margin-top: 160px;
@@ -516,11 +505,10 @@ ol {
     position: absolute;
     width: 580px;
     height: 427px;
-    background: url(/assets/img/RA_final.png) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     bottom: 0;
     right: 0;
-    margin-right: 18rem;
 }
 footer .container {
     justify-content: space-between;
@@ -532,15 +520,10 @@ footer .infos {
 }
 footer .carda-logo {
     display: block;
-    width: 60px;
-    height: 60px;
-    background: url(/assets/img/logo-tree.png) no-repeat;
+    width: 50px;
+    height: 30px;
+    background: url("../assets/img/logo-tree.png") no-repeat;
     background-size: cover;
-}
-footer .typo {
-    justify-content: center;
-    margin-top: 5%;
-    margin-left: 10px;
 }
 footer .baseline {
     font-weight: 300;
@@ -586,16 +569,16 @@ footer .link:hover {
 }
 footer .twitter {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/logo-twitter.svg) no-repeat center;
-    mask: url(/assets/img/logo-twitter.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-twitter.svg") no-repeat center;
+    mask: url("../assets/img/logo-twitter.svg") no-repeat center;
 }
 footer .link:last-child {
     margin-right: 0;
 }
 footer .discord {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/logo-discord.svg) no-repeat center;
-    mask: url(/assets/img/logo-discord.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-discord.svg") no-repeat center;
+    mask: url("../assets/img/logo-discord.svg") no-repeat center;
 }
 #discord .cta:hover {
     background: #527bd3;
@@ -625,32 +608,6 @@ a:active, a:hover {
     text-decoration: none;
     font-weight: 700;
     transition: all .3s ease-in-out;
-}
-#covenant {
-    margin-bottom: 200px;
-    padding-top: 100px;
-    overflow: hidden;
-}
-#covenant .intro {
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 150px;
-}
-#covenant .title {
-    position: relative;
-    width: 44.44%;
-    text-align: center;
-    padding-right: 0px;
-}
-#covenant .question {
-    font-size: 4rem;
-    font-weight: 700;
-}
-#covenant .answer {
-    font-size: 5rem;
-    font-weight: 700;
-    line-height: 4.6rem;
-    margin-top: 10px;
 }
 #team {
     margin-bottom: 200px;
@@ -683,7 +640,7 @@ a:active, a:hover {
     content: "";
     width: 123px;
     height: 123px;
-    background: url(/images/golden_pyramyd.png) no-repeat;
+    background: url("../images/golden_pyramyd.png") no-repeat;
     left: -60px;
     top: -100px;
 }
@@ -721,13 +678,13 @@ a:active, a:hover {
 }
 #team .twitter {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/twitter-about-small.svg) no-repeat center;
-    mask: url(/assets/img/twitter-about-small.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/twitter-about-small.svg") no-repeat center;
+    mask: url("../assets/img/twitter-about-small.svg") no-repeat center;
 }
 #team .instagram {
     background-color: #fff;
-    -webkit-mask: url(/assets/img/logo-instagram.svg) no-repeat center;
-    mask: url(/assets/img/logo-instagram.svg) no-repeat center;
+    -webkit-mask: url("../assets/img/logo-instagram.svg") no-repeat center;
+    mask: url("../assets/img/logo-instagram.svg") no-repeat center;
 }
 #team .network {
     width: 44px;
@@ -744,6 +701,16 @@ a:active, a:hover {
     left: 38.885%;
     bottom: 0;
     opacity: .4;
+}
+.sean-spacer{
+    position: absolute;
+    width: 2px;
+    height: 400px;
+    background: #687fc2;
+    left: 38.885%;
+    bottom: 0;
+    opacity: .4;
+    top:18%;
 }
 #team .works {
     width: 55.55%;
@@ -766,4 +733,22 @@ a:active, a:hover {
 }
 #team .member {
     margin-top: 80px;
+}
+
+/* roadmap */
+.roadmap-img{
+    height:100%;
+    width:100%;
+}
+.second-row{
+    margin-top:100px;
+}
+
+/* about us  */
+.sean{
+    position:relative;
+    top:80px;
+}
+.example-p{
+    font-size:10px;
 }
